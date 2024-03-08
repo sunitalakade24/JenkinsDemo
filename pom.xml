@@ -6,11 +6,13 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.2.3</version>
+		
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
 	<artifactId>JenkinsGetMappingProject</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	
 	<name>JenkinsGetMappingProject</name>
 	<description>Jenkins Project demo</description>
 	<properties>
@@ -34,6 +36,11 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<groupId>org.sonarsource.scanner.maven</groupId>
+				<artifactId>sonar-maven-plugin</artifactId>
+				<version>3.4.0.905</version>
 			</plugin>
 		</plugins>
 	</build>
