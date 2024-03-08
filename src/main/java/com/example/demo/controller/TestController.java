@@ -12,7 +12,7 @@ public class TestController {
 	@GetMapping("/getdata")
 	public List<String> getmapping()
 	{
-		List<String> list=Arrays.asList("mahi","sunita","vanita","pruthvi","shiv","anavi");
+		List<String> list=Arrays.asList("appa","rani","vanita","pruthvi","shiv","anavi");
 		return list;
 	}
 }
